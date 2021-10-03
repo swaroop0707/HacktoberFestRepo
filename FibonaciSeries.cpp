@@ -4,12 +4,12 @@ using namespace std;
 
 int main()
 {
-    int n, a = 0, b = 1, c;
+    int fibb, a = 0, b = 1, c;
     cout<<"Enter the no. of Fibonacci term : ";
-    cin>>n;
+    cin>>fibb;
     
     cout<<a<<" "<<b<<" ";
-    for (int i = 1; i < n; i++)
+    for (int i = 1; i < fibb; i++)
     {
         c = a + b;
         cout<<c<<" ";
@@ -17,6 +17,7 @@ int main()
         b = c;
     }
     cout<<endl;
+    //fibonacci series would be printed
     return 0;
 }
 
